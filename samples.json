@@ -1,0 +1,38 @@
+{
+  "samples": [
+    {
+      "id": 1,
+      "name": "شهاب‌سنگ آهنی Seymchan",
+      "type": "آهنی",
+      "subtype": "IIAB",
+      "weight": 156,
+      "price": 1850000,
+      "location": "روسیه",
+      "year": 1967,
+      "certificate": "IMCA-12345",
+      "composition": "آهن (92.5%)، نیکل (6.5%)، کبالت (0.6%)",
+      "description": "شهاب‌سنگ آهنی با ساختار ویدمن اشتاتن زیبا",
+      "features": ["پوسته گداخته کامل", "اثرات رگولیت", "جذب قوی آهنربا"],
+      "images": ["meteorite1.jpg"],
+      "stock": 3,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "کندریت معمولی NWA 869",
+      "type": "سنگی",
+      "subtype": "L5",
+      "weight": 89,
+      "price": 890000,
+      "location": "شمال آفریقا",
+      "year": 2001,
+      "certificate": "IMCA-12346",
+      "composition": "الیوین، پیروکسن، پلاژیوکلاز",
+      "description": "کندریت معمولی با کندرول‌های مشخص",
+      "features": ["کندرول‌های واضح", "پوسته گدازه نازک", "جذب متوسط آهنربا"],
+      "images": ["meteorite2.jpg"],
+      "stock": 5,
+      "featured": true
+    }
+  ]
+}
