@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شهاب‌سنگ‌شناسی - مرکز تخصصی شناخت و فروش شهاب‌سنگ</title>
+    <meta name="description" content="مرکز تخصصی شناخت، آموزش و فروش شهاب‌سنگ‌های اصل">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<script src="js/check-images.js"></script>
+<body>
+    <!-- هدر -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <img src="images/logo.png" alt="لوگو" class="logo"> شهاب‌سنگ‌شناسی" class="logo">
+                <span>شهاب‌سنگ‌شناسی</span>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="#home">خانه</a></li>
+                <li><a href="#about">شهاب‌سنگ چیست؟</a></li>
+                <li><a href="products.html">فروشگاه</a></li>
+                <li><a href="courses.html">آموزش</a></li>
+                <li><a href="register-sample.html">ثبت نمونه</a></li>
+                <li><a href="#contact">تماس با ما</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="cart-btn" onclick="toggleCart()">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </button>
+                <a href="admin.html" class="admin-btn">پنل مدیریت</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- بخش هیرو -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>جهان را در دستان خود احساس کنید</h1>
+            <p>مرکز تخصصی شناخت، آموزش و فروش شهاب‌سنگ‌های اصل با گواهی اصالت</p>
+            <div class="hero-buttons">
+                <a href="products.html" class="cta-btn">مشاهده نمونه‌ها</a>
+                <a href="courses.html" class="cta-btn secondary">دوره‌های آموزشی</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/background.png" alt="شهاب‌سنگ">
+        </div>
+    </section>
+
+    <!-- بخش انواع شهاب‌سنگ -->
+    <section class="meteorite-types">
+        <div class="container">
+            <h2 class="section-title">انواع شهاب‌سنگ</h2>
+            <div class="types-grid">
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-magnet"></i>
+                    </div>
+                    <h3>شهاب‌سنگ آهنی</h3>
+                    <p>متشکل از آلیاژ آهن-نیکل • جذب آهنربا • وزن مخصوص بالا</p>
+                    <ul>
+                        <li>کاماسیت</li>
+                        <li>تائنیت</li>
+                        <li>هگزاهدریت</li>
+                    </ul>
+                </div>
+
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>شهاب‌سنگ سنگی</h3>
+                    <p>شامل کندرول • ترکیب سیلیکاتی • فراوان‌ترین نوع</p>
+                    <ul>
+                        <li>کندریت معمولی</li>
+                        <li>کندریت کربنی</li>
+                        <li>آکندریت</li>
+                    </ul>
+                </div>
+
+                <div class="type-card">
+                    <div class="type-icon">
+                        <i class="fas fa-meteor"></i>
+                    </div>
+                    <h3>شهاب‌سنگ آهنی-سنگی</h3>
+                    <p>ترکیبی از فلز و سنگ • نادر و ارزشمند</p>
+                    <ul>
+                        <li>پالاسیت</li>
+                        <li>مزوسیدریت</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- بخش نمونه‌های ویژه -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">نمونه‌های ویژه</h2>
+            <div class="products-grid" id="featured-products">
+                <!-- محصولات توسط JS لود می‌شوند -->
+            </div>
+        </div>
+    </section>
+
+    <!-- بخش درباره شهاب‌سنگ -->
+    <section id="about" class="about-meteorites">
+        <div class="container">
+            <div class="about-content">
+                <h2>شهاب‌سنگ چیست؟</h2>
+                <div class="about-text">
+                    <p>شهاب‌سنگ‌ها اجرام جامدی هستند که از فضا به زمین سقوط می‌کنند. این اجرام باقی‌مانده‌های تشکیل منظومه شمسی هستند و اطلاعات ارزشمندی از تاریخچه کیهان در خود دارند.</p>
+                    
+                    <h3>ویژگی‌های تشخیص شهاب‌سنگ اصل:</h3>
+                    <ul>
+                        <li>پوسته گداخته (Fusion Crust)</li>
+                        <li>جذب آهنربا (به جز کندریت‌های کربنی)</li>
+                        <li>وزن مخصوص بالا نسبت به سنگ‌های زمینی</li>
+                        <li>وجود کندرول (دانه‌های کروی)</li>
+                        <li>اثرات رگولیت (Regmaglypts)</li>
+                    </ul>
+
+                    <div class="warning-box">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <p>هشدار: تشخیص شهاب‌سنگ اصل نیاز به تخصص دارد. از خرید نمونه‌های بدون گواهی اصالت خودداری کنید.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- بخش آمار -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">۴۵۰۰</span>
+                    <span class="stat-label">شهاب‌سنگ ثبت‌شده</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">۱۲۰</span>
+                    <span class="stat-label">کشور دارای شهاب‌سنگ</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">۴.۶</span>
+                    <span class="stat-label">میلیارد سال (میانگین سن)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">۹۸%</span>
+                    <span class="stat-label">رضایت مشتریان</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- فوتر -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>شهاب‌سنگ‌شناسی</h4>
+                    <p>مرکز تخصصی شناخت، آموزش و فروش شهاب‌سنگ‌های اصل با گواهی اصالت بین‌المللی</p>
+                </div>
+                <div class="footer-section">
+                    <h4>لینک‌های سریع</h4>
+                    <ul>
+                        <li><a href="#home">خانه</a></li>
+                        <li><a href="#about">شهاب‌سنگ چیست؟</a></li>
+                        <li><a href="products.html">فروشگاه</a></li>
+                        <li><a href="courses.html">آموزش</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>تماس با ما</h4>
+                    <p><i class="fas fa-phone"></i> 09930836646</p>
+                    <p><i class="fas fa-envelope"></i> rezasaadaty19@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i>استان گلستان</p>
+                </div>
+                <div class="footer-section">
+                    <h4>گواهی‌ها</h4>
+                    <div class="certificates">
+                        <span class="cert-badge">IMCA</span>
+                        <span class="cert-badge">NASA Certified</span>
+                        <span class="cert-badge">ISO 9001</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; ۱۴۰۲ مرکز شهاب‌سنگ‌شناسی. تمام حقوق محفوظ است.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- سبد خرید -->
+    <div id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h3>سبد خرید</h3>
+            <button class="close-cart" onclick="toggleCart()">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- آیتم‌های سبد خرید -->
+        </div>
+        <div class="cart-total">
+            <p>جمع کل: <span class="total-price">۰ تومان</span></p>
+            <button class="checkout-btn">تکمیل خرید</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
