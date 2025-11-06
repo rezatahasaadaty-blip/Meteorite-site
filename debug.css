@@ -1,0 +1,21 @@
+/* فایل: css/debug.css */
+* {
+    border: 1px solid rgba(255,0,0,0.1) !important;
+}
+
+img:not([src]) {
+    background: yellow !important;
+    padding: 20px !important;
+}
+
+img[src=""] {
+    background: orange !important;
+}
+
+img:before {
+    content: "❌ " attr(alt);
+    display: block;
+    background: #ff0000;
+    color: white;
+    padding: 10px;
+}
